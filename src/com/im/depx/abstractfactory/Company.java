@@ -3,18 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.im.depx.builder;
+package com.im.depx.abstractfactory;
 
 /**
  *
- * @author rpa29
+ * @author acer
  */
-public interface Packing {
-
-    public String pack();
-
-    public double price();
+public interface Company {
     
-    public String color();
-
+    public String getName();
+    
 }

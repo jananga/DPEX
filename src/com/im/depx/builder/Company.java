@@ -7,14 +7,11 @@ package com.im.depx.builder;
 
 /**
  *
- * @author rpa29
+ * @author acer
  */
-public interface Packing {
-
-    public String pack();
-
-    public double price();
+public abstract class Company extends CD{
     
-    public String color();
+        @Override
+        public abstract double price();
 
 }

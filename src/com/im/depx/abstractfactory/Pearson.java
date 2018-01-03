@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.im.depx.builder;
+package com.im.depx.abstractfactory;
 
 /**
  *
- * @author rpa29
+ * @author acer
  */
-public interface Packing {
+public class Pearson implements Company {
 
-    public String pack();
-
-    public double price();
-    
-    public String color();
+    @Override
+    public String getName() {
+        return "Pearson Pvt Ltd.";
+    }
 
 }
