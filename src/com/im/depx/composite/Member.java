@@ -18,6 +18,8 @@ public interface Member {
     public void addMember(Member member);
     public void removeMember(Member member);
     
+    public void print();
+    
     public Member getChild(int i);
     
 }
